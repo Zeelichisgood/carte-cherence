@@ -258,7 +258,7 @@ footer a{text-decoration:underline;}
   <div class="hero-inner">
     <p class="eyebrow-light">Carnet de terrain · Vexin français</p>
     <h1>Autour de Chérence</h1>
-    <p class="hero-sub">46 adresses vérifiées — du clocher de Saint-Denis aux bords de Seine, jusqu'aux jardins de Monet.</p>
+    <p class="hero-sub">49 adresses vérifiées — du clocher de Saint-Denis aux bords de Seine, jusqu'aux jardins de Monet.</p>
     <p class="hero-cap">Chérence, vue depuis les prés — le clocher de l'église Saint-Denis</p>
   </div>
 </header>
@@ -322,23 +322,6 @@ const SPOTS = [
     "hours": "Fermé lundi-mardi · vérifier l'ouverture avant de venir"
   },
   {
-    "id": "bords-de-seine-la-roche-guyon",
-    "cat": "table",
-    "name": "Les Bords de Seine",
-    "lat": 49.080144,
-    "lng": 1.6314589,
-    "note": "S'attabler au bord de l'eau sous les grands platanes et regarder passer les péniches pendant qu'arrive une cuisine traditionnelle soignée. La terrasse ombragée fait tout le charme dès les beaux jours. L'adresse-repère du village, au pied du château.",
-    "rating": 3.9,
-    "ratingCount": 1112,
-    "price": 2,
-    "address": "21 rue du Docteur Duval, 95780 La Roche-Guyon",
-    "phone": "+33 1 30 98 32 52",
-    "site": "https://www.bords-de-seine.fr/",
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Les+Bords+de+Seine+La+Roche-Guyon",
-    "drive": "~10 min",
-    "hours": "Ouvert 7j/7 (à vérifier)"
-  },
-  {
     "id": "cancalaise-la-roche-guyon",
     "cat": "table",
     "name": "Crêperie La Cancalaise",
@@ -382,6 +365,24 @@ const SPOTS = [
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le+Jardin+des+Plumes+Giverny",
     "drive": "~25 min",
     "hours": "Fermé lundi-mardi (à vérifier)"
+  },
+  {
+    "id": "oscar-giverny",
+    "cat": "table",
+    "name": "Oscar",
+    "lat": 49.076402,
+    "lng": 1.531071,
+    "note": "Le bistrot gourmand de David Gallienne — le chef étoilé du Jardin des Plumes — niché dans les jardins du Musée des impressionnismes, à deux pas de la maison de Monet. Des assiettes qui rappellent les goûts d'enfance, des produits normands parfois cueillis au potager, un piano en accès libre et un bar central pour prolonger la soirée.",
+    "rating": 4.2,
+    "ratingCount": 851,
+    "price": 3,
+    "address": "99 rue Claude Monet, 27620 Giverny",
+    "phone": "+33 6 10 38 30 49",
+    "site": "https://oscargiverny.com",
+    "hours": "Avr.-oct. · midi tous les jours, soir ven.-sam. · fermé nov.-mars",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Oscar+restaurant+Giverny",
+    "drive": "~30 min",
+    "photo": null
   },
   {
     "id": "ancien-hotel-baudy-giverny",
@@ -471,6 +472,24 @@ const SPOTS = [
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La+Capucine+Giverny",
     "drive": "~25 min",
     "hours": "Tous les jours 10h-18h · happy hour 18h-20h"
+  },
+  {
+    "id": "guinguette-giverny",
+    "cat": "bar",
+    "name": "La Guinguette de Giverny",
+    "lat": 49.074514,
+    "lng": 1.53799,
+    "note": "Les pieds presque dans l'eau, sur une terrasse ombragée au bord d'un bras de l'Epte — le paysage exact que Monet peignait à 300 m de là. En face, les vaches viennent brouter dans la prairie et vous dire bonjour, les truites glissent sous la surface. Une vraie parenthèse guinguette, d'avril à septembre, sans réservation.",
+    "rating": 4.1,
+    "ratingCount": 169,
+    "price": 2,
+    "address": "6 route de Falaise, 27620 Giverny",
+    "phone": "+33 6 72 76 03 66",
+    "site": "https://laguinguettedegiverny.com",
+    "hours": "Avr.-sept. · déj. mer.-dim., dîner jeu.-sam. · sans réservation",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La+Guinguette+de+Giverny",
+    "drive": "~30 min",
+    "photo": "https://laguinguettedegiverny.com/wp-content/uploads/2019/05/guiguette-giverny-accueil-6.jpg"
   },
   {
     "id": "cafe-de-la-place-moisson",
@@ -642,6 +661,18 @@ const SPOTS = [
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Eglise+Saint-Denis+Cherence",
     "drive": "à pied depuis le centre",
     "photo": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Ch%C3%A9rence_-_%C3%89glise_Saint-Denis_01.jpg"
+  },
+  {
+    "id": "cimetiere-cherence",
+    "cat": "culture",
+    "name": "Cimetière de Chérence",
+    "lat": 49.0872712,
+    "lng": 1.6711901,
+    "note": "Sous le plateau reposent quelques grands noms : l'écrivaine Nathalie Sarraute, figure du Nouveau Roman, et le peintre Eugène Galien-Laloue, célèbre pour ses vues de Paris sous la pluie et la neige. Non loin, Eugène et Maria Jolas, fondateurs de la revue moderniste « transition » et proches de James Joyce. Un petit cimetière de village qui a discrètement attiré tout un cercle d'artistes.",
+    "address": "Rue des Jardins, 95510 Chérence",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=cimetiere+de+Cherence+95510",
+    "drive": "à pied depuis le centre",
+    "photo": null
   },
   {
     "id": "chateau-la-roche-guyon",
@@ -820,6 +851,22 @@ const SPOTS = [
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Aerodrome+de+Mantes+Cherence",
     "drive": "~5 min",
     "photo": "https://upload.wikimedia.org/wikipedia/commons/8/8f/A%C3%A9rodrome_de_Mantes_-_Ch%C3%A9rence%2C_Hangar_Sud_%282%29.jpg"
+  },
+  {
+    "id": "montgolfiere-vexin",
+    "cat": "exterieur",
+    "name": "Montgolfière du Vexin",
+    "lat": 49.090349,
+    "lng": 1.67765,
+    "note": "Décoller au lever ou au coucher du soleil et flotter en silence au-dessus des boucles de la Seine, de La Roche-Guyon et des toits de Giverny. Environ une heure portée par le vent, la vallée qui s'étire jusqu'aux falaises. Une base tenue depuis 2012 par un pilote installé au village.",
+    "address": "15 rue de la Coursoupe, 95510 Chérence",
+    "phone": "+33 6 09 37 84 15",
+    "site": "https://www.vexinmontgolfiere.fr",
+    "duration": "baptême ~250-280 € (approx.) · ~3h dont ≈1h de vol",
+    "hours": "Sur réservation · vols au lever ou au coucher du soleil",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Montgolfiere+du+Vexin+Cherence",
+    "drive": "à pied depuis le centre",
+    "photo": "https://static.apidae-tourisme.com/filestore/objets-touristiques/images/18/241/13496594.jpg"
   },
   {
     "id": "route-des-cretes",

@@ -2,7 +2,7 @@
 
 *Vexin français · Val-d'Oise · repérage août 2026*
 
-Temps de route depuis Chérence (95510), ±5 min selon la saison. Cœur de sélection dans un rayon de 5 à 25 min ; au-delà (Giverny, Auvers-sur-Oise, Pontoise), c'est signalé — ce sont des pépites qui valent le détour. Carte interactive associée : **[zeelichisgood.github.io/carte-cherence](https://zeelichisgood.github.io/carte-cherence/)**.
+Temps de route depuis Chérence (95510), ±5 min selon la saison. Cœur de sélection dans un rayon de 5 à 25 min ; au-delà (Giverny, Auvers-sur-Oise, Pontoise), c'est signalé — ce sont des pépites qui valent le détour. Carte interactive associée : `carte-cherence.html`.
 
 ![Chérence, vue depuis les prés — le clocher de l'église Saint-Denis](cherence-clocher.jpg)
 
@@ -16,10 +16,6 @@ Un village de cent soixante âmes posé sur le plateau, maisons de pierre et gra
 ~10 min · 6-8 Grande Rue, 95510 Vétheuil · [Itinéraire](https://www.google.com/maps/search/?api=1&query=Curiosite+et+Gourmandise+Vetheuil)
 À dix minutes de Chérence, dans le village que Monet a peint, une petite table qui joue les textures et les saveurs sans se prendre au sérieux. Menu au fil du marché, cadre feutré, addition raisonnable pour ce qui arrive dans l'assiette. **Fermé lundi-mardi · vérifier l'ouverture avant de venir.**
 
-### Les Bords de Seine — 3,9★ (1112 avis) · €€
-~10 min · 21 rue du Docteur Duval, 95780 La Roche-Guyon · 01 30 98 32 52 · [Site officiel](https://www.bords-de-seine.fr/) · [Itinéraire](https://www.google.com/maps/search/?api=1&query=Les+Bords+de+Seine+La+Roche-Guyon)
-S'attabler au bord de l'eau sous les grands platanes et regarder passer les péniches pendant qu'arrive une cuisine traditionnelle soignée. La terrasse ombragée fait tout le charme dès les beaux jours. L'adresse-repère du village, au pied du château. **Ouvert 7j/7 (à vérifier).**
-
 ### Crêperie La Cancalaise — 3,8★ (256 avis) · €
 ~10 min · 18 rue du Général Leclerc, 95780 La Roche-Guyon · [Itinéraire](https://www.google.com/maps/search/?api=1&query=La+Cancalaise+La+Roche-Guyon)
 La halte simple et gourmande au pied du château : galettes bien garnies, crêpes caramel beurre salé, terrasse pour souffler après la balade sur les hauteurs. Sans façon, parfait en famille.
@@ -31,6 +27,10 @@ La bonne table de bourg du Vexin : produits frais du coin, plats généreux, che
 ### Le Jardin des Plumes — 4,6★ (1383 avis) · €€€€
 ~25 min · 1 rue du Milieu, 27620 Giverny · [Site officiel](https://jardindesplumes.fr/) · [Itinéraire](https://www.google.com/maps/search/?api=1&query=Le+Jardin+des+Plumes+Giverny)
 La grande table du secteur, une étoile fidèle au poste : la cuisine créative et précise de David Gallienne dans une maison anglo-normande à deux pas des jardins de Monet. Patio, jardin arboré, poissons de Dieppe. Le repas qu'on s'offre pour marquer le séjour. **Fermé lundi-mardi (à vérifier).**
+
+### Oscar — 4,2★ (851 avis) · €€€
+~30 min · 99 rue Claude Monet, 27620 Giverny · 06 10 38 30 49 · [Site officiel](https://oscargiverny.com) · [Itinéraire](https://www.google.com/maps/search/?api=1&query=Oscar+restaurant+Giverny)
+Le bistrot gourmand de David Gallienne — le chef étoilé du Jardin des Plumes — niché dans les jardins du Musée des impressionnismes, à deux pas de la maison de Monet. Des assiettes qui rappellent les goûts d'enfance, des produits normands parfois cueillis au potager, un piano en accès libre et un bar central pour prolonger la soirée. **Avr.-oct. · midi tous les jours, soir ven.-sam. · fermé nov.-mars.**
 
 ### Ancien Hôtel Baudy — 4,2★ (3129 avis) · €€
 ![Ancien Hôtel Baudy](https://upload.wikimedia.org/wikipedia/commons/7/71/Ancien_Hotel_Baudy_-_Giverny_%283746435669%29.jpg)
@@ -60,6 +60,11 @@ Un verre ou un cocktail sur la petite terrasse, entre galerie d'art et salon de 
 ### La Capucine — Giverny — 3,7★ (653 avis)
 ~25 min · 80 rue Claude Monet, 27620 Giverny · 09 88 99 61 35 · [Site officiel](https://www.lacapucinegiverny.fr) · [Itinéraire](https://www.google.com/maps/search/?api=1&query=La+Capucine+Giverny)
 Ancien pressoir devenu café-jardin à quelques mètres des jardins de Monet : on boit son verre au milieu des plantes, à l'ombre. Happy hour en fin de journée, quand les cars de touristes sont repartis. Simple, vert, reposant. **Tous les jours 10h-18h · happy hour 18h-20h.**
+
+### La Guinguette de Giverny — 4,1★ (169 avis) · €€
+![La Guinguette de Giverny](https://laguinguettedegiverny.com/wp-content/uploads/2019/05/guiguette-giverny-accueil-6.jpg)
+~30 min · 6 route de Falaise, 27620 Giverny · 06 72 76 03 66 · [Site officiel](https://laguinguettedegiverny.com) · [Itinéraire](https://www.google.com/maps/search/?api=1&query=La+Guinguette+de+Giverny)
+Les pieds presque dans l'eau, sur une terrasse ombragée au bord d'un bras de l'Epte — le paysage exact que Monet peignait à 300 m de là. En face, les vaches viennent brouter dans la prairie et vous dire bonjour, les truites glissent sous la surface. Une vraie parenthèse guinguette, d'avril à septembre, sans réservation. **Avr.-sept. · déj. mer.-dim., dîner jeu.-sam. · sans réservation.**
 
 ### Café de la Place — Moisson — 4,0★ (1340 avis)
 ~25 min (traverser la Seine) · 2 route de Lavacourt, 78840 Moisson · [Itinéraire](https://www.google.com/maps/search/?api=1&query=Cafe+de+la+Place+Moisson)
@@ -122,6 +127,10 @@ Le grand marché normand de la vallée, sur trois places du centre à colombages
 à pied depuis le centre · Rue de l'Église, 95510 Chérence · [Itinéraire](https://www.google.com/maps/search/?api=1&query=Eglise+Saint-Denis+Cherence)
 Le clocher qui se repère de loin dans la campagne du plateau — celui de la photo. Une nef romane parmi les plus anciennes du Vexin, agrandie au XVIe d'un bel ensemble Renaissance, classée monument historique. Dedans, une Vierge à l'Enfant en pierre du XVe et une cloche de bronze de 1591.
 
+### Cimetière de Chérence
+à pied depuis le centre · Rue des Jardins, 95510 Chérence · [Itinéraire](https://www.google.com/maps/search/?api=1&query=cimetiere+de+Cherence+95510)
+Sous le plateau reposent quelques grands noms : l'écrivaine Nathalie Sarraute, figure du Nouveau Roman, et le peintre Eugène Galien-Laloue, célèbre pour ses vues de Paris sous la pluie et la neige. Non loin, Eugène et Maria Jolas, fondateurs de la revue moderniste « transition » et proches de James Joyce. Un petit cimetière de village qui a discrètement attiré tout un cercle d'artistes.
+
 ### Château de La Roche-Guyon — 4,5★ (4300 avis)
 ![Château de La Roche-Guyon](https://upload.wikimedia.org/wikipedia/commons/c/cc/La_Roche-Guyon_-_Ch%C3%A2teau.jpg)
 ~7 min · ~9,50 € · 1h30-2h · 1 rue de l'Audience, 95780 La Roche-Guyon · 01 34 79 74 42 · [Site officiel](https://www.chateaudelarocheguyon.fr) · [Itinéraire](https://www.google.com/maps/search/?api=1&query=Chateau+de+La+Roche-Guyon)
@@ -176,6 +185,11 @@ Dans les communs du château de Théméricourt, le musée raconte le Vexin : sa 
 ![Vol à voile — Aérodrome de Chérence](https://upload.wikimedia.org/wikipedia/commons/8/8f/A%C3%A9rodrome_de_Mantes_-_Ch%C3%A9rence%2C_Hangar_Sud_%282%29.jpg)
 ~5 min · vol d'initiation ~20-30 min · ≈ 70-80 € (approx., à confirmer) · Aérodrome de Mantes-Chérence (LFFC), 95510 Chérence · 06 98 76 13 33 · [Site officiel](http://www.aavo.org/) · [Itinéraire](https://www.google.com/maps/search/?api=1&query=Aerodrome+de+Mantes+Cherence)
 Se faire treuiller au ras du plateau puis basculer d'un coup au-dessus du vide : la Seine s'enroule 130 m plus bas et les falaises de craie défilent en silence, moteur coupé. Une vingtaine de minutes en planeur biplace avec un instructeur, diplôme de vol à l'atterrissage. La sensation forte du coin, juste au-dessus du village. **Selon météo, printemps-automne · sur réservation.**
+
+### Montgolfière du Vexin
+![Montgolfière du Vexin](https://static.apidae-tourisme.com/filestore/objets-touristiques/images/18/241/13496594.jpg)
+à pied depuis le centre · baptême ~250-280 € (approx.) · ~3h dont ≈1h de vol · 15 rue de la Coursoupe, 95510 Chérence · 06 09 37 84 15 · [Site officiel](https://www.vexinmontgolfiere.fr) · [Itinéraire](https://www.google.com/maps/search/?api=1&query=Montgolfiere+du+Vexin+Cherence)
+Décoller au lever ou au coucher du soleil et flotter en silence au-dessus des boucles de la Seine, de La Roche-Guyon et des toits de Giverny. Environ une heure portée par le vent, la vallée qui s'étire jusqu'aux falaises. Une base tenue depuis 2012 par un pilote installé au village. **Sur réservation · vols au lever ou au coucher du soleil.**
 
 ### Point de vue de la Route des Crêtes
 ~5 min (ou à pied par le GR2) · gratuit · accès libre · [Itinéraire](https://www.google.com/maps/search/?api=1&query=Route+des+Cretes+Cherence+La+Roche-Guyon)

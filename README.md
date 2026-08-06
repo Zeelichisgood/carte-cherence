@@ -4,7 +4,7 @@ Guide et carte interactive du **Vexin français**, base **Chérence (95510)**, s
 
 ## 👉 [Ouvrir la carte](https://zeelichisgood.github.io/carte-cherence/)
 
-Carte interactive (Leaflet) avec les 46 adresses repérées, filtrables par catégorie. Fonctionne sur téléphone, rien à installer. La photo du clocher est embarquée dans le fichier — la carte est autonome.
+Carte interactive (Leaflet) avec les 49 adresses repérées, filtrables par catégorie. Fonctionne sur téléphone, rien à installer. La photo du clocher est embarquée dans le fichier — la carte est autonome.
 
 ## 📖 [Lire le guide](guide-cherence.md)
 
@@ -21,7 +21,7 @@ Le même contenu en version texte, à lire ou à imprimer :
 
 ## Bon à savoir
 
-- 46 adresses, dans un rayon de 5 à 45 min (Giverny, Auvers-sur-Oise et Pontoise sont les pépites les plus lointaines, signalées).
+- 49 adresses, dans un rayon de 5 à 45 min (Giverny, Auvers-sur-Oise et Pontoise sont les pépites les plus lointaines, signalées).
 - Notes et avis relevés en août 2026 (Google Maps / TripAdvisor, offices de tourisme du Vexin et de Normandie) — un coup de fil avant de se déplacer reste le plus sûr.
 - Les tarifs et horaires des sites culturels sont indicatifs ; la plupart ferment de novembre à mars.
 - Photos issues de Wikimedia Commons et des sites officiels. Temps de route indiqués depuis Chérence, ±5 min selon la saison.
