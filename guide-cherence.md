@@ -90,6 +90,16 @@ Un potager du XVIIIe blotti dans ses murs au bord de Seine, 32 parcelles et 675 
 ~6 min · 1 rue du Général Leclerc, 95780 La Roche-Guyon · 01 34 79 71 56 · [Site officiel](https://quaidespains.com) · [Itinéraire](https://www.google.com/maps/search/?api=1&query=Quai+des+Pains+La+Roche-Guyon)
 La boulangerie de La Roche-Guyon, la plus proche de Chérence. Farines choisies, fermentations lentes au levain : la tradition et les pains spéciaux font l'unanimité, viennoiseries dans la foulée. L'arrêt croissant du matin avant la falaise. **Fermé lundi · 7h-19h.**
 
+### Les Chocolats de Vétheuil — 4,7★ (388 avis)
+![Les Chocolats de Vétheuil](https://static.apidae-tourisme.com/filestore/objets-touristiques/images/176/230/20899504.jpg)
+~12 min · 1 rue de l'Église, 95510 Vétheuil · 01 34 78 23 33 · [Site officiel](https://les-chocolats-de-vetheuil.cmonsite.fr) · [Itinéraire](https://www.google.com/maps/search/?api=1&query=Les+Chocolats+de+Vetheuil)
+Le glacier-chocolatier du village, référencé Gault & Millau : René Dequehen fait ses glaces et sorbets maison depuis une vingtaine d'années dans sa minuscule boutique à deux pas de la Seine. Les parfums sortent des sentiers battus — le kalamansi, agrume acidulé d'Asie, est devenu sa signature, à côté de sorbets aux fruits bien francs et de ganaches parfumées. Le dimanche, la file déborde sur le trottoir, et ça vaut l'attente. **Fermé lundi-mardi · mer.-dim. 10h-12h30 & 14h-19h.**
+
+### Babzacao — chocolatier (Giverny)
+![Babzacao — chocolatier (Giverny)](https://cdt27.media.tourinsoft.eu/upload/GC-Babzacao-1.jpg)
+~30 min · 79 rue Claude Monet, 27620 Giverny · 06 31 05 21 32 · [Site officiel](https://www.babzacao.fr/) · [Itinéraire](https://www.google.com/maps/search/?api=1&query=Babzacao+Giverny)
+Bastien, alias Babz, travaille un cacao tracé et équitable sous sa devise « Beau, Brut & Bon » : tablettes, ganaches, rochers et confiseries faits main à l'atelier de Vernon. À la boutique-terrasse de Giverny, on compose sa glace sundae à deux pas de la maison de Monet. Un chocolatier engagé, salué par France Inter et France 3, membre du Club des Chocolatiers Engagés. **Boutique Giverny 10h-18h (en saison).**
+
 ### Cueillette d'Aincourt
 ![Cueillette d'Aincourt](https://www.marche-aux-plaisirs.fr/wp-content/uploads/2016/01/Cueillette-Aincourt.jpg)
 ~15 min · 5 rue Boulangère, 95510 Aincourt · 01 34 76 71 14 · [Itinéraire](https://www.google.com/maps/search/?api=1&query=Cueillette+d%27Aincourt)
