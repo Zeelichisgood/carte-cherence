@@ -13,6 +13,7 @@ Un village de cent soixante âmes posé sur le plateau, maisons de pierre et gra
 ## 🍽️ La table
 
 ### Crêperie La Cancalaise — 3,8★ (256 avis) · €
+![Crêperie La Cancalaise](https://media-cdn.tripadvisor.com/media/photo-w/08/03/d3/5d/la-facade.jpg)
 ~10 min · 18 rue du Général Leclerc, 95780 La Roche-Guyon · 01 34 79 74 48 · [Itinéraire](https://www.google.com/maps/search/?api=1&query=La+Cancalaise+La+Roche-Guyon)
 La halte simple et gourmande au pied du château : galettes bien garnies, crêpes caramel beurre salé, terrasse pour souffler après la balade sur les hauteurs. Sans façon, parfait en famille.
 
