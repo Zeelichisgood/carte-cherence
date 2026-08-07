@@ -12,17 +12,9 @@ Un village de cent soixante âmes posé sur le plateau, maisons de pierre et gra
 
 ## 🍽️ La table
 
-### Curiosité et Gourmandise — €€
-~10 min · 6-8 Grande Rue, 95510 Vétheuil · 01 34 78 14 23 · [Itinéraire](https://www.google.com/maps/search/?api=1&query=Curiosite+et+Gourmandise+Vetheuil)
-À dix minutes de Chérence, dans le village que Monet a peint, une petite table qui joue les textures et les saveurs sans se prendre au sérieux. Menu au fil du marché, cadre feutré, addition raisonnable pour ce qui arrive dans l'assiette. **Fermé lundi-mardi · vérifier l'ouverture avant de venir.**
-
 ### Crêperie La Cancalaise — 3,8★ (256 avis) · €
 ~10 min · 18 rue du Général Leclerc, 95780 La Roche-Guyon · 01 34 79 74 48 · [Itinéraire](https://www.google.com/maps/search/?api=1&query=La+Cancalaise+La+Roche-Guyon)
 La halte simple et gourmande au pied du château : galettes bien garnies, crêpes caramel beurre salé, terrasse pour souffler après la balade sur les hauteurs. Sans façon, parfait en famille.
-
-### La Pétille — 4,1★ (203 avis) · €€
-~20 min · 27 place d'Armes, 95420 Magny-en-Vexin · 01 34 67 27 58 · [Itinéraire](https://www.google.com/maps/search/?api=1&query=La+Petille+Magny-en-Vexin)
-La bonne table de bourg du Vexin : produits frais du coin, plats généreux, cheminée l'hiver et terrasse l'été sur la place d'Armes. Accueil familial, en tête du classement local. On repart calé sans casser sa tirelire.
 
 ### Le Jardin des Plumes — 4,6★ (1383 avis) · €€€€
 ![Le Jardin des Plumes](https://jardindesplumes.fr/media/cache/jadro_resize/rc/wNHyyDLl1751965696/jadroRoot/medias/5e983773e7af2/_p6a3325copie.jpg)
@@ -74,12 +66,9 @@ Ancien pressoir devenu café-jardin à quelques mètres des jardins de Monet : o
 Les pieds presque dans l'eau, sur une terrasse ombragée au bord d'un bras de l'Epte — le paysage exact que Monet peignait à 300 m de là. En face, les vaches viennent brouter dans la prairie et vous dire bonjour, les truites glissent sous la surface. Une vraie parenthèse guinguette, d'avril à septembre, sans réservation. **Avr.-sept. · déj. mer.-dim., dîner jeu.-sam. · sans réservation.**
 
 ### Café de la Place — Moisson — 4,0★ (1340 avis)
+![Café de la Place — Moisson](https://cdn.eat-list.fr/establishment/photo/gallery_photo/78840-moisson/le-cafe-de-la-place_198049_359.jpg)
 ~25 min (traverser la Seine) · 2 route de Lavacourt, 78840 Moisson · [Site officiel](http://www.cafedemoisson.fr) · [Itinéraire](https://www.google.com/maps/search/?api=1&query=Cafe+de+la+Place+Moisson)
 Le vrai café de village dans la boucle de la Seine : comptoir, terrasse, poulet rôti le week-end. On y croise les habitants plus que les touristes. Franchir la Seine vaut le détour rien que pour l'ambiance bistrot. **Fermé lundi · 7h-21h, plus tard ven.-sam.**
-
-### Chez Édith
-~12 min · Près de la place de l'Église, 95510 Vétheuil · [Itinéraire](https://www.google.com/maps/search/?api=1&query=Chez+Edith+Vetheuil)
-Le café-restaurant du village où Monet a vécu : grillades et plat du jour à l'ardoise. Terrasse pour les beaux jours, salle chaleureuse quand il pleut. Une halte simple et sans façon entre deux boucles de Seine.
 
 ---
 
@@ -101,6 +90,7 @@ Un potager du XVIIIe blotti dans ses murs au bord de Seine, 32 parcelles et 675 
 La boulangerie de La Roche-Guyon, la plus proche de Chérence. Farines choisies, fermentations lentes au levain : la tradition et les pains spéciaux font l'unanimité, viennoiseries dans la foulée. L'arrêt croissant du matin avant la falaise. **Fermé lundi · 7h-19h.**
 
 ### Cueillette d'Aincourt
+![Cueillette d'Aincourt](https://www.marche-aux-plaisirs.fr/wp-content/uploads/2016/01/Cueillette-Aincourt.jpg)
 ~15 min · 5 rue Boulangère, 95510 Aincourt · 01 34 76 71 14 · [Itinéraire](https://www.google.com/maps/search/?api=1&query=Cueillette+d%27Aincourt)
 Cueillir soi-même en plein Parc du Vexin : fraises, framboises et groseilles au bout des doigts, puis tomates, salades et petits pois à ramasser panier au bras. Prix de saison, fraîcheur imbattable, et les enfants adorent. D'avril à septembre, jamais le mardi. **Avr.-sept. · 9h-12h & 14h-19h · fermé mardi.**
 
@@ -277,4 +267,4 @@ Un nom né, dit-on, d'Henri IV égaré en 1590 : « Mais quel est ce joli villag
 
 Le fichier `carte-cherence.html` est autonome (la photo du clocher est embarquée, aucune dépendance à installer). Pour un vrai lien à envoyer, dépose-le sur **Netlify Drop** (netlify.com/drop) ou **GitHub Pages** — trente secondes, et la carte est en ligne.
 
-*Notes et avis relevés en août 2026 via Google Maps / TripAdvisor et les offices de tourisme du Vexin et de Normandie ; photos issues des sites officiels, de Wikimedia Commons et des bases touristiques officielles (Apidae / Val-d'Oise Tourisme). Les tarifs et horaires des sites culturels sont donnés à titre indicatif — la plupart ferment de novembre à mars. À reconfirmer avant de se déplacer.*
+*Statuts d'ouverture vérifiés en août 2026 sur les registres officiels (INSEE SIRENE, Pappers, societe.com) ; notes & avis via Google Maps / TripAdvisor et les offices de tourisme du Vexin et de Normandie ; photos issues des sites officiels, de Wikimedia Commons, des offices de tourisme et d'annuaires spécialisés. Tarifs et horaires indicatifs — la plupart des sites culturels ferment de novembre à mars. À reconfirmer avant de se déplacer.*
