@@ -343,6 +343,60 @@ footer a{text-decoration:underline;}
   body{background:#fff;}
   footer{opacity:1;border:none;}
 }
+
+/* ---------- bloc d'introduction ---------- */
+.about{
+  margin:0 0 2.4rem;
+  --pc:var(--ink);
+}
+.about-body{
+  background:var(--card);
+  border:1.5px solid var(--ink);
+  border-left:5px solid var(--table);
+  border-radius:4px;
+  padding:1.05rem 1.15rem .95rem;
+}
+.about-body p{margin:0 0 .75rem;max-width:66ch;font-size:.93rem;}
+.about-body p:last-child{margin-bottom:0;}
+.about h3{
+  font-family:'Space Mono',monospace;
+  font-size:.66rem;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  margin:1.3rem 0 .55rem;
+  padding-top:.9rem;
+  border-top:1px solid color-mix(in srgb, var(--ink) 22%, transparent);
+}
+.about ul{margin:0 0 .75rem;padding-left:1.05rem;max-width:66ch;font-size:.93rem;}
+.about li{margin:.2rem 0;}
+.about .aside{
+  font-size:.83rem;
+  opacity:.7;
+  border-left:2px solid color-mix(in srgb, var(--ink) 30%, transparent);
+  padding-left:.7rem;
+  max-width:62ch;
+}
+.about-more{margin-top:.2rem;}
+.about-more > summary{
+  cursor:pointer;
+  list-style:none;
+  display:inline-flex;
+  align-items:center;
+  gap:.45rem;
+  font-family:'Space Mono',monospace;
+  font-size:.66rem;
+  letter-spacing:.13em;
+  text-transform:uppercase;
+  color:var(--table);
+  padding:.35rem 0;
+}
+.about-more > summary::-webkit-details-marker{display:none;}
+.about-more > summary::after{content:"+";font-size:.95rem;line-height:1;}
+.about-more[open] > summary::after{content:"–";}
+.about-more > summary:hover{text-decoration:underline;}
+@media print{
+  .about-more > summary{display:none;}
+}
 </style>
 </head>
 <body>
@@ -378,10 +432,10 @@ footer a{text-decoration:underline;}
     <div>
       <p class="cartouche-eyebrow">Feuille 95-CH · Vexin français</p>
       <h1>Autour de Chérence</h1>
-      <p class="cartouche-sub">Un village de cent soixante âmes entre les boucles de la Seine et les champs du Vexin — 48 adresses vérifiées, du clocher de Saint-Denis aux jardins de Monet.</p>
+      <p class="cartouche-sub">Cent trente âmes sur le plateau, entre les boucles de la Seine et les champs du Vexin — 73 adresses vérifiées, du clocher de Saint-Denis aux jardins de Monet. La pierre d'ici est partie construire l'Arc de Triomphe.</p>
     </div>
     <div class="cartouche-specs">
-      ÉCHELLE <b>1:25 000</b> — ÉD. AOÛT 2026<br>
+      ÉCHELLE <b>1:25 000</b> — ÉD. SEPT. 2026<br>
       RAYON <b>0–45 MIN</b> DEPUIS LE POINT ⌖
       <div class="scalebar" role="img" aria-label="Barre d'échelle"><i></i><i></i><i></i><i></i></div>
     </div>
@@ -395,7 +449,46 @@ footer a{text-decoration:underline;}
 <nav class="chips" id="chips" aria-label="Filtrer par catégorie"><span class="chips-label">Légende</span></nav>
 
 <div class="workspace">
-  <div class="list-panel" id="listPanel"></div>
+  <div class="list-panel" id="listPanel">
+    <section class="about">
+      <div class="cat-head"><span class="sq"></span><b>Le point de départ</b><span class="rule"></span><span class="n">Chérence 95510</span></div>
+      <div class="about-body">
+        <p>Cent trente habitants, un plateau, du ciel, et les falaises de craie qui plongent vers la Seine deux cents mètres plus bas. Chérence est un village où l'on croise plus de chevaux que de voitures — on les y promène en licol comme ailleurs on sort le chien, et ils vont boire à l'abreuvoir qui trône au milieu du bourg. Le village est bâti en fer à cheval le long d'une ligne de sources : c'est elle qui alimente les lavoirs et l'abreuvoir, et c'est elle qui explique la forme du lieu.</p>
+
+        <details class="about-more" id="aboutMore">
+          <summary>La pierre, les tournages, l'église</summary>
+
+          <h3>La pierre qui a fait Paris</h3>
+          <p>Sous le village dort du calcaire lutétien vieux d'environ quarante millions d'années. Rien d'exceptionnel dans le Vexin — sauf qu'ici, sa forte teneur en silice le rend nettement plus dur qu'ailleurs. La « pierre de Chérence » a donc été extraite dès le Moyen Âge, avec un âge d'or sous Napoléon I<sup>er</sup>, et elle est partie construire ce qu'on va voir en vacances :</p>
+          <ul>
+            <li><b>L'Arc de Triomphe</b> — le site officiel du monument le confirme : en 1826, la commission d'architectes préconise la pierre de Chérence pour les sculptures de l'entablement. On la retrouve aussi dans les façades et le grand dallage de la plateforme.</li>
+            <li><b>L'église de la Madeleine</b>, chapiteaux et soffites, et <b>Saint-Vincent-de-Paul</b>.</li>
+            <li><b>Les chevaux du pont d'Iéna</b>, les statues équestres qui gardent l'entrée du pont.</li>
+            <li><b>Notre-Dame de Bon-Secours</b> et le <b>port de Rouen</b>, en descendant le fleuve.</li>
+            <li>Plus près : les <b>remparts de Mantes</b> au XIV<sup>e</sup> siècle, les voussoirs du <b>pont de Mantes</b> dessiné par Perronet, et l'<b>église de La Roche-Guyon</b> juste en bas.</li>
+          </ul>
+          <p>Les blocs descendaient à la Seine tirés par des chevaux, puis partaient en bateau vers Paris ou Rouen ; le chemin de fer les fera ensuite transiter par la gare de Gasny. Le béton a tué le métier après la Première Guerre mondiale, et les carriers se sont reconvertis en charrons et menuisiers. Les carrières sont toujours là, à ciel ouvert dans une clairière sur le chemin de l'ancien hameau de Bézu — le Sentier du Patrimoine, aménagé par le Parc naturel régional, y mène depuis l'église.</p>
+          <p>Détail qui dit tout du village : la commune met des moellons de pierre du pays à disposition des habitants qui restaurent leur maison. C'est pour ça que rien ne jure ici.</p>
+          <p class="aside">Le Palais de Chaillot revient parfois dans la liste — aucune source ne le confirme, contrairement à tout le reste ci-dessus. À prendre avec des pincettes.</p>
+
+          <h3>Un village qui tourne</h3>
+          <p>Cette authenticité-là se paie en tournages : quatorze films et programmes recensés à Chérence par le Val-d'Oise. Entre autres —</p>
+          <ul>
+            <li><b>Fantômas</b> (André Hunebelle, 1964), avec Jean Marais et Louis de Funès.</li>
+            <li><b>L'Ours et la poupée</b> (Michel Deville, 1969), où Brigitte Bardot et Jean-Pierre Cassel ont fait du village leur camp de base. Les gendarmes de Magny et de Chérence tenaient les admirateurs à distance pendant qu'elle cueillait de la menthe sauvage dans les prés.</li>
+            <li><b>La Science des rêves</b> (Michel Gondry, 2006).</li>
+            <li><b>Visages villages</b> (Agnès Varda et JR, 2017), nommé à l'Oscar du documentaire.</li>
+            <li><b>Violette</b> (Martin Provost, 2013) et <b>Un amour de sorcière</b> (1997, avec Vanessa Paradis).</li>
+          </ul>
+          <p>Et Nathalie Sarraute, qui a écrit ici et repose au cimetière du village, y a trouvé le paysage minéral de plusieurs de ses livres — Arte lui a consacré un <i>Invitation au voyage</i> tourné sur place en 2023.</p>
+
+          <h3>Ce qu'on voit en arrivant</h3>
+          <p>L'église Saint-Denis veille sur tout ça : nef du XII<sup>e</sup> siècle parmi les plus anciennes du Vexin, avec ses petites fenêtres en plein cintre et ses murs appareillés en arêtes de poisson, agrandie au XVI<sup>e</sup> d'un bel ensemble Renaissance, classée monument historique. Dedans, une Vierge à l'Enfant en pierre du XV<sup>e</sup> et une cloche de bronze de 1591. Son clocher trapu se repère à des kilomètres sur le plateau.</p>
+          <p>Le reste tient en trois mots : c'est calme. Pas de commerce, pas de bruit, des planeurs qui passent en silence au-dessus des toits depuis l'aérodrome voisin. On rayonne d'ici — à pied sur le plateau et jusqu'à la crête, ou en voiture vers les boucles du fleuve et le pays des impressionnistes. Tout ce qui suit est à moins de trente minutes.</p>
+        </details>
+      </div>
+    </section>
+  </div>
   <div class="map-panel">
     <div id="map"></div>
     <button class="map-reset" id="mapReset" type="button">⌖ Vue générale</button>
@@ -403,7 +496,7 @@ footer a{text-decoration:underline;}
 </div>
 
 <footer>
-  Fond de carte © contributeurs OpenStreetMap · Photos : sites officiels, Wikimedia Commons, offices de tourisme &amp; annuaires · Notes &amp; avis relevés en août 2026<br>
+  Fond de carte © contributeurs OpenStreetMap · Photos : sites officiels, Wikimedia Commons, offices de tourisme &amp; annuaires · Notes &amp; avis relevés en août et septembre 2026<br>
   Imprimable (⌘/Ctrl+P) pour une version papier sans réseau
 </footer>
 
@@ -414,6 +507,7 @@ const CATS = {
   table:       { label: "Table",       code: "TAB", color: "#C25E1E" },
   bar:         { label: "Bar & café",  code: "CAF", color: "#8E3B49" },
   producteurs: { label: "Producteurs", code: "PRO", color: "#8A6D3F" },
+  marches:     { label: "Marchés",     code: "MAR", color: "#2E7D74" },
   culture:     { label: "Culture",     code: "CUL", color: "#46689B" },
   exterieur:   { label: "Grand air",   code: "AIR", color: "#567A36" },
   village:     { label: "Villages",    code: "VIL", color: "#7E58A6" }
@@ -426,28 +520,12 @@ const SPOTS = [
     "name": "Chérence",
     "lat": 49.089167,
     "lng": 1.676389,
-    "note": "Point de départ du carnet. Un village de plateau du Vexin français, à peine cent soixante âmes, maisons de pierre et grand ciel, posé juste au-dessus des falaises qui plongent vers la Seine. On rayonne d'ici : à pied sur le plateau, ou en voiture vers les boucles du fleuve.",
+    "note": "Point de départ du carnet. Cent trente habitants sur le plateau, et plus de chevaux que de voitures — on les promène en licol comme ailleurs on sort le chien, et ils vont boire à l'abreuvoir au milieu du bourg. Le village est bâti en fer à cheval le long d'une ligne de sources. Sous les maisons dort un calcaire si dur qu'il est parti construire l'Arc de Triomphe, la Madeleine et les chevaux du pont d'Iéna. Fantômas, Bardot, Gondry et Agnès Varda y ont tourné.",
     "address": "95510 Chérence",
     "site": "https://www.destination-vexin-francais.fr/fiches/cherence-6310113/",
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cherence+95510",
     "drive": "—",
     "photo": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Ch%C3%A9rence_-_Mairie_01.jpg"
-  },
-  {
-    "id": "cancalaise-la-roche-guyon",
-    "cat": "table",
-    "name": "Crêperie La Cancalaise",
-    "lat": 49.0814628,
-    "lng": 1.6306629,
-    "note": "La halte simple et gourmande au pied du château : galettes bien garnies, crêpes caramel beurre salé, terrasse pour souffler après la balade sur les hauteurs. Sans façon, parfait en famille.",
-    "rating": 3.8,
-    "ratingCount": 256,
-    "price": 1,
-    "address": "18 rue du Général Leclerc, 95780 La Roche-Guyon",
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La+Cancalaise+La+Roche-Guyon",
-    "drive": "~10 min",
-    "phone": "+33 1 34 79 74 48",
-    "photo": "https://media-cdn.tripadvisor.com/media/photo-w/08/03/d3/5d/la-facade.jpg"
   },
   {
     "id": "jardin-des-plumes-giverny",
@@ -531,10 +609,10 @@ const SPOTS = [
     "rating": 4.5,
     "ratingCount": 485,
     "address": "18 rue de la Vieille Charrière de Gasny, 95780 La Roche-Guyon",
-    "phone": "+33 6 80 12 54 40",
+    "phone": "+33 9 74 73 52 81",
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La+Grotte+a+Bieres+La+Roche-Guyon",
     "drive": "~8 min",
-    "hours": "Fermé lundi · 16h-21h en semaine, plus large le week-end",
+    "hours": "Fermé lundi · mar.-jeu. 16h-21h, ven. 16h-22h, sam. 12h-22h, dim. 12h-20h",
     "site": "https://www.valdoise-tourisme.com/fiches/la-grotte-a-bieres/",
     "photo": "https://static.apidae-tourisme.com/filestore/objets-touristiques/images/214/208/10146006.jpg"
   },
@@ -639,13 +717,13 @@ const SPOTS = [
     "name": "Potager-fruitier du Château",
     "lat": 49.0814,
     "lng": 1.6289,
-    "note": "Un potager du XVIIIe blotti dans ses murs au bord de Seine, 32 parcelles et 675 arbres fruitiers menés en bio. Les légumes de saison partent à la boutique du château de juillet à octobre ; le reste file en confitures et jus. On descend chercher son panier au pied des falaises.",
+    "note": "Le plus gros producteur bio à sept minutes : 3,8 ha clos de murs au bord de Seine, le plus grand potager d'Île-de-France après celui du Roi à Versailles, 675 arbres fruitiers, certifié AB depuis 2013. Les légumes se vendent au potager même en haute saison ; les jus et confitures à la boutique du château. Le potager est en accès libre et gratuit — pas besoin de payer l'entrée.",
     "address": "1 rue de l'Audience, 95780 La Roche-Guyon",
     "phone": "+33 1 34 79 74 42",
     "site": "https://www.chateaudelarocheguyon.fr/le-potager-fruitier/",
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Potager+fruitier+Chateau+La+Roche-Guyon",
     "drive": "~6 min",
-    "hours": "Boutique 10h-18h · légumes en vente juil.-oct.",
+    "hours": "1er avr.-1er nov., tous les jours 10h-18h · réouverture hivernale 5 déc.-3 janv.",
     "photo": "https://www.chateaudelarocheguyon.fr/wp-content/uploads/2021/06/Donjon-vue-du-potager-LRG.jpg"
   },
   {
@@ -752,7 +830,7 @@ const SPOTS = [
     "drive": "~30 min",
     "hours": "Sam. & dim. 10h30-12h30 & 14h30-18h",
     "photo": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x10000:format=jpg/path/s895d74e0ac26b6b5/image/i1524b744c64d7f75/version/1752592585/image.jpg",
-    "phone": "+33 1 30 39 24 43"
+    "phone": "+33 7 86 31 81 44"
   },
   {
     "id": "ferme-colimacon",
@@ -771,7 +849,7 @@ const SPOTS = [
   },
   {
     "id": "marche-magny",
-    "cat": "producteurs",
+    "cat": "marches",
     "name": "Marché de Magny-en-Vexin",
     "lat": 49.1554,
     "lng": 1.7874,
@@ -786,7 +864,7 @@ const SPOTS = [
   },
   {
     "id": "marche-vernon",
-    "cat": "producteurs",
+    "cat": "marches",
     "name": "Grand Marché de Vernon",
     "lat": 49.0913,
     "lng": 1.4847,
@@ -1180,6 +1258,399 @@ const SPOTS = [
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Wy-dit-Joli-Village+95420",
     "drive": "~25 min",
     "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Mairie_de_Wy_dit_joli_village_P1050773.JPG"
+  },
+  {
+    "id": "casa-victoria",
+    "cat": "table",
+    "name": "La Casa Victoria",
+    "lat": 49.081645,
+    "lng": 1.630779,
+    "note": "Depuis la fermeture de La Cancalaise, la halte simple du village : pizzas et calzones généreuses au pied du château. Surtout, c'est ouvert sept jours sur sept jusqu'à 22h, une rareté ici où tout ferme tôt. Réserver le week-end.",
+    "address": "20 rue du Général Leclerc, 95780 La Roche-Guyon",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La+Casa+Victoria+La+Roche-Guyon",
+    "drive": "~8 min",
+    "rating": 4.4,
+    "ratingCount": 434,
+    "price": 2,
+    "phone": "+33 1 30 63 23 64",
+    "hours": "Tous les jours 9h-22h"
+  },
+  {
+    "id": "cambrousse",
+    "cat": "table",
+    "name": "Restaurant Cambrousse",
+    "lat": 49.0620501,
+    "lng": 1.7378516,
+    "note": "La belle table du plateau, à un quart d'heure. Salle voûtée, cuisine ouverte, baie en arc de cercle sur le parc classé de 60 ha du château de la Bûcherie. Le potager et les serres en permaculture du domaine dictent la carte. Le bon plan : le déjeuner à 35 €, du mercredi au vendredi midi. Sinon 65 € en 4 temps, 95 € en 7 temps. Gault&Millau 12,5/20, une toque.",
+    "address": "Château de la Bûcherie, 5 rue du Parc, 95510 Saint-Cyr-en-Arthies",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cambrousse+Saint-Cyr-en-Arthies",
+    "drive": "~12 min",
+    "rating": 4.7,
+    "ratingCount": 206,
+    "price": 3,
+    "phone": "+33 1 88 60 76 13",
+    "site": "https://chateaudelabucherie.com/fr/restaurant-gastronomique-vexin",
+    "hours": "Mer.-sam. 12h-13h30 & 19h-21h30 · dim. midi · fermé lun.-mar.",
+    "photo": "https://static.apidae-tourisme.com/filestore/objets-touristiques/images/105/102/39609961.jpeg"
+  },
+  {
+    "id": "relais-bras-dor",
+    "cat": "table",
+    "name": "Le Relais du Bras d'Or",
+    "lat": 49.1548282,
+    "lng": 1.7873305,
+    "note": "La reprise de l'ancienne Pétille, place d'Armes : même maison, nouvelle enseigne, nouveau chef. Yoann Le Chatton, trente ans de cuisine, y installe une table franchement locavore et publie sa liste de producteurs partenaires — dont le Domaine Entre Deux Grains, vignoble de Magny même. La meilleure porte d'entrée sur le terroir du plateau.",
+    "address": "27 place d'Armes, 95420 Magny-en-Vexin",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le+Relais+du+Bras+d%27Or+Magny-en-Vexin",
+    "drive": "~20 min",
+    "rating": 4.4,
+    "ratingCount": 401,
+    "price": 2,
+    "phone": "+33 1 34 67 27 58",
+    "site": "https://relaisdubrasdor.fr/",
+    "hours": "Fermé lundi · mar.-ven. 12h-14h · week-ends 12h-14h & 19h-21h · fermé 3-27 août",
+    "photo": "https://static.apidae-tourisme.com/filestore/objets-touristiques/images/125/10/40438397.jpg"
+  },
+  {
+    "id": "prieure-normand-gasny",
+    "cat": "table",
+    "name": "Auberge du Prieuré Normand",
+    "lat": 49.0891418,
+    "lng": 1.606781,
+    "note": "La table gastronomique de Gasny, deux fois plus près que Giverny et sans la foule. Menu trois services autour de 54 €, cave à whiskies. L'alternative sérieuse quand Le Jardin des Plumes est complet.",
+    "address": "1 place de la République, 27620 Gasny",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Auberge+du+Prieure+Normand+Gasny",
+    "drive": "~12 min",
+    "rating": 4.7,
+    "ratingCount": 1159,
+    "price": 3,
+    "phone": "+33 2 32 52 10 01",
+    "hours": "Fermé mercredi · 12h-13h30 & 19h-20h30"
+  },
+  {
+    "id": "moulin-de-fourges",
+    "cat": "table",
+    "name": "Le Moulin de Fourges",
+    "lat": 49.1194978,
+    "lng": 1.643796,
+    "note": "Un moulin à colonnades au bord de l'Epte, dans l'une des plus jolies vallées du secteur. Restaurant, chambres, sauna et jacuzzi. Le cadre justifie le détour même sans consommer.",
+    "address": "38 rue du Moulin, 27630 Fourges",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le+Moulin+de+Fourges",
+    "drive": "~18 min",
+    "rating": 4.5,
+    "ratingCount": 2506,
+    "price": 3,
+    "phone": "+33 2 32 52 12 12",
+    "hours": "Horaires variables selon saison (à vérifier)"
+  },
+  {
+    "id": "vingt-du-domaine",
+    "cat": "table",
+    "name": "Le 20 du Domaine — Rolleboise",
+    "lat": 49.022686,
+    "lng": 1.6087051,
+    "note": "Bistrot chic sur la corniche, avec la plus large vue sur la boucle de la Seine du secteur. Ouvert midi et soir sept jours sur sept : le filet de sécurité du dimanche soir quand le Vexin a baissé le rideau.",
+    "address": "20 route de la Corniche, 78270 Rolleboise",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le+20+du+Domaine+Rolleboise",
+    "drive": "~22 min",
+    "rating": 4.5,
+    "ratingCount": 2388,
+    "price": 2,
+    "phone": "+33 1 30 93 20 00",
+    "hours": "Tous les jours 12h-14h & 19h-21h45"
+  },
+  {
+    "id": "pause-de-magny",
+    "cat": "table",
+    "name": "La Pause de Magny",
+    "lat": 49.1458194,
+    "lng": 1.7867055,
+    "note": "Petit bistrot sans esbroufe et sans faute : formule entrée/plat/dessert à 20 € le midi, produits frais. Le déjeuner à faire quand on descend au marché de Magny le samedi.",
+    "address": "5 rue Ampère, 95420 Magny-en-Vexin",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La+Pause+de+Magny",
+    "drive": "~20 min",
+    "rating": 4.9,
+    "ratingCount": 29,
+    "price": 1,
+    "phone": "+33 1 34 02 12 99",
+    "hours": "Fermé lun. & dim. · midi en semaine, soir jeu.-sam."
+  },
+  {
+    "id": "bords-de-seine-terrasse",
+    "cat": "bar",
+    "name": "Les Bords de Seine — terrasse",
+    "lat": 49.0801898,
+    "lng": 1.6312525,
+    "note": "À retenir d'abord comme terrasse : de grands platanes, la Seine devant, le château derrière — la plus belle terrasse du secteur accessible à pied. La cuisine divise, donc plutôt l'apéro. Quatorze chambres au-dessus pour loger des invités à cinq minutes.",
+    "address": "21 rue du Docteur Duval, 95780 La Roche-Guyon",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Les+Bords+de+Seine+La+Roche-Guyon",
+    "drive": "~7 min",
+    "rating": 3.9,
+    "ratingCount": 1117,
+    "price": 2,
+    "phone": "+33 1 30 98 32 52",
+    "site": "https://www.bords-de-seine.fr",
+    "hours": "Service 12h-14h & 19h-21h, du 5 janv. au 15 déc.",
+    "photo": "https://static.apidae-tourisme.com/filestore/objets-touristiques/images/93/159/22978397.jpg"
+  },
+  {
+    "id": "chiquito-vetheuil",
+    "cat": "bar",
+    "name": "Le Chiquito — bar de Vétheuil",
+    "lat": 49.0631357,
+    "lng": 1.7016329,
+    "note": "Le café de village de Vétheuil, sur la place, tenu par un patron calligraphe qui couvre ses murs de fresques à l'encre de Chine. Comptoir, point relais colis, habitués. L'équivalent du Café de la Place de Moisson, sans traverser la Seine.",
+    "address": "4 place de la Mairie, 95510 Vétheuil",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=bar+place+de+la+Mairie+Vetheuil",
+    "drive": "~12 min",
+    "rating": 4.3,
+    "ratingCount": 21,
+    "phone": "+33 9 66 44 62 51",
+    "hours": "Tous les jours 8h-20h · dim. 8h30-13h"
+  },
+  {
+    "id": "folies-du-belvedere",
+    "cat": "bar",
+    "name": "Les Folies du Belvédère",
+    "lat": 49.07975,
+    "lng": 1.62955,
+    "note": "Quatre soirées par saison montées par le château avec la Distillerie de La Roche-Guyon, au milieu du potager, au bord de la Seine sous la falaise : cocktails maison, jus pomme-poire du jardin, jazz et blues au coucher du soleil. Entrée libre, restauration payante. La plus belle soirée du coin.",
+    "address": "Potager-fruitier, 1 rue de l'Audience, 95780 La Roche-Guyon",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Potager+fruitier+Chateau+La+Roche-Guyon",
+    "drive": "~7 min",
+    "phone": "+33 1 34 79 74 42",
+    "site": "https://www.chateaudelarocheguyon.fr/les-folies-du-belvedere/",
+    "hours": "Dates 2026 : 25 sept. & 16 oct., 18h-23h · entrée libre",
+    "photo": "https://www.chateaudelarocheguyon.fr/wp-content/uploads/2026/06/Affiche-FOLIESBELVEDERE-2026_web.jpg"
+  },
+  {
+    "id": "distillerie-roche-guyon",
+    "cat": "producteurs",
+    "name": "Distillerie de La Roche-Guyon",
+    "lat": 49.08135,
+    "lng": 1.62835,
+    "note": "Installée dans l'enceinte du château, elle produit trois gins et un pastis à partir de matières premières du plateau — thym, citronnelle et coriandre pour l'un, fleur d'oranger et hibiscus pour l'autre. Le seul spiritueux vraiment d'ici, donc le cadeau à rapporter.",
+    "address": "1 rue de l'Audience, 95780 La Roche-Guyon",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chateau+de+La+Roche-Guyon",
+    "drive": "~7 min",
+    "phone": "+33 1 34 79 74 42",
+    "hours": "À la boutique du château, aux horaires du château"
+  },
+  {
+    "id": "verger-de-giverny",
+    "cat": "producteurs",
+    "name": "Le Verger de Giverny",
+    "lat": 49.0973694,
+    "lng": 1.5577025,
+    "note": "Une vraie cidrerie-distillerie de famille à quelques minutes de Giverny, sans les cars : cidre, jus de pomme, pommeau, calvados, confitures et miel. L'alambic ancien vaut le coup d'œil et le propriétaire fait volontiers visiter.",
+    "address": "1 rue Sainte-Geneviève, 27620 Bois-Jérôme-Saint-Ouen",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le+Verger+de+Giverny+Bois-Jerome-Saint-Ouen",
+    "drive": "~18 min",
+    "rating": 4.5,
+    "ratingCount": 79,
+    "phone": "+33 2 32 51 29 36",
+    "hours": "Mer.-dim. 14h-18h · fermé lun.-mar."
+  },
+  {
+    "id": "ecurie-des-producteurs",
+    "cat": "producteurs",
+    "name": "L'Écurie des Producteurs — 24/7",
+    "lat": 49.0976455,
+    "lng": 1.4578269,
+    "note": "Un mur de casiers réfrigérés alimenté par les producteurs du coin : légumes, œufs, volailles, fromages, conserves, jus. C'est la solution du dimanche soir, quand toutes les fermes du plateau ont fermé.",
+    "address": "Rue Louis Blériot, 27950 Saint-Marcel",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=L%27Ecurie+des+Producteurs+Saint-Marcel",
+    "drive": "~25 min",
+    "rating": 5.0,
+    "ratingCount": 16,
+    "hours": "Ouvert 24h/24, 7j/7"
+  },
+  {
+    "id": "ferme-ecoufle",
+    "cat": "producteurs",
+    "name": "Ferme de l'Écoufle",
+    "lat": 49.084643,
+    "lng": 1.424291,
+    "note": "La boutique de ferme qui alimente le distributeur voisin : volailles, œufs, et une sélection de producteurs des environs. À combiner avec une matinée à Vernon ou Giverny.",
+    "address": "L'Écoufle, 27950 Saint-Marcel",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ferme+de+l%27Ecoufle+Saint-Marcel",
+    "drive": "~25 min",
+    "rating": 4.9,
+    "ratingCount": 34,
+    "phone": "+33 6 34 05 05 88",
+    "hours": "Ven. 10h-12h & 15h-19h · sam. 9h30-13h"
+  },
+  {
+    "id": "brebis-de-cravent",
+    "cat": "producteurs",
+    "name": "Les Brebis de Cravent",
+    "lat": 48.9894561,
+    "lng": 1.4986,
+    "note": "Le seul fromage de brebis du secteur, où tout le reste est chèvre ou vache : fromages frais et affinés, yaourts, beurre, et glaces au lait de brebis en été. Le berger prend le temps d'expliquer. Plage d'ouverture étroite.",
+    "address": "16 rue Claude Monod Broca, 78270 Cravent",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Les+Brebis+de+Cravent",
+    "drive": "~25 min",
+    "rating": 5.0,
+    "ratingCount": 70,
+    "phone": "+33 7 83 22 27 33",
+    "hours": "Ven. 15h-18h · sam. 10h-12h & 15h-18h"
+  },
+  {
+    "id": "chevrerie-chartreuse",
+    "cat": "producteurs",
+    "name": "La Chèvrerie de la Chartreuse",
+    "lat": 49.205005,
+    "lng": 1.63119,
+    "note": "Petite chèvrerie familiale côté Vexin normand : fromages, crèmes, yaourts. Ferme ouverte, chèvres très approchables, bonne sortie avec des enfants. Ce n'est pas une boutique à horaires fixes.",
+    "address": "Rue de la Chartreuse, 27420 Vexin-sur-Epte",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chevrerie+de+la+Chartreuse+Vexin-sur-Epte",
+    "drive": "~25 min",
+    "rating": 5.0,
+    "ratingCount": 7,
+    "phone": "+33 6 10 36 28 00",
+    "hours": "Téléphoner avant de passer"
+  },
+  {
+    "id": "fermes-du-vexin-nucourt",
+    "cat": "producteurs",
+    "name": "Les Fermes du Vexin",
+    "lat": 49.1514708,
+    "lng": 1.8524271,
+    "note": "Adresse de résident, pas de touriste : pommes de terre en plusieurs variétés, oignons, échalotes et ail au prix producteur. Attention aux conditionnements, 10 kg pour les primeurs.",
+    "address": "Rue de Paris, 95420 Nucourt",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Les+Fermes+du+Vexin+Nucourt",
+    "drive": "~25 min",
+    "rating": 4.6,
+    "ratingCount": 7,
+    "phone": "+33 6 87 18 59 48",
+    "hours": "Lun.-ven. 8h30-12h & 13h30-16h · fermé le week-end"
+  },
+  {
+    "id": "ferme-du-haubert",
+    "cat": "producteurs",
+    "name": "La Ferme du Haubert",
+    "lat": 49.0336642,
+    "lng": 1.8113919,
+    "note": "La ferme la plus « sortie du dimanche » du coin : boutique bio bien fournie, mares, aires de barbecue, glaces et sorbets maison l'été. Prétexte à une boucle par la vallée de la Montcient, et à trois minutes des Ruchers d'Alexandre.",
+    "address": "RD 913, 78440 Brueil-en-Vexin",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=La+Ferme+du+Haubert+Brueil-en-Vexin",
+    "drive": "~30 min",
+    "rating": 4.5,
+    "ratingCount": 477,
+    "phone": "+33 1 34 75 39 37",
+    "hours": "Ven. 10h-19h · sam. 9h-19h · dim. 9h-14h"
+  },
+  {
+    "id": "ruchers-alexandre",
+    "cat": "producteurs",
+    "name": "Les Ruchers d'Alexandre",
+    "lat": 49.0277123,
+    "lng": 1.8179907,
+    "note": "Miels de printemps, toutes fleurs, forêt et châtaignier, nougats et pain d'épices. Fait doublon avec Bee Api Vexin, mais dans la direction opposée — celui-ci se combine avec la Ferme du Haubert.",
+    "address": "16 chemin de la Grande Perreuse, 78440 Brueil-en-Vexin",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Les+Ruchers+d%27Alexandre+Brueil-en-Vexin",
+    "drive": "~30 min",
+    "rating": 4.5,
+    "ratingCount": 58,
+    "hours": "Sam. 15h-18h"
+  },
+  {
+    "id": "trois-petits-gourmands",
+    "cat": "producteurs",
+    "name": "Aux 3 Petits Gourmands",
+    "lat": 49.1557584,
+    "lng": 1.7862328,
+    "note": "Le croissant qui fait consensus à Magny, au beurre AOP affiché — la seule boulangerie du bourg que les retours placent nettement au-dessus des autres. À cent mètres du marché du samedi.",
+    "address": "12 rue Nationale, 95420 Magny-en-Vexin",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Aux+3+Petits+Gourmands+Magny-en-Vexin",
+    "drive": "~20 min",
+    "rating": 4.6,
+    "ratingCount": 158,
+    "phone": "+33 1 34 46 98 39",
+    "hours": "6h30-19h30 · fermé mercredi · dim. 6h30-13h"
+  },
+  {
+    "id": "marche-vetheuil",
+    "cat": "marches",
+    "name": "Marché de Vétheuil",
+    "lat": 49.0636,
+    "lng": 1.701,
+    "note": "Le seul marché à moins d'un quart d'heure, mais il faut savoir à quoi s'attendre : quatre exposants relevés à l'été 2026. C'est un dépannage de village, pas un marché de ravitaillement — pour ça, c'est Magny le samedi.",
+    "address": "Centre du village, 95510 Vétheuil",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vetheuil+95510+centre",
+    "drive": "~12 min",
+    "hours": "Vendredi matin"
+  },
+  {
+    "id": "marche-bonnieres",
+    "cat": "marches",
+    "name": "Marché de Bonnières-sur-Seine",
+    "lat": 49.0363,
+    "lng": 1.579,
+    "note": "Une trentaine de commerçants sur la place, côté Yvelines. C'est le marché du dimanche matin, donc la solution de rattrapage quand on n'a rien anticipé pour le week-end.",
+    "address": "Place de la Libération, 78270 Bonnières-sur-Seine",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Marche+Bonnieres-sur-Seine+Place+de+la+Liberation",
+    "drive": "~20 min",
+    "hours": "Dimanche 8h-13h"
+  },
+  {
+    "id": "salon-du-vin",
+    "cat": "marches",
+    "name": "Salon du vin et des produits du terroir",
+    "lat": 49.08115,
+    "lng": 1.62775,
+    "note": "Le rendez-vous annuel du Rotary de Magny, dans les écuries du XVIIIe : une quarantaine de viticulteurs indépendants, et une section produits du terroir qui est le vrai intérêt local — la Distillerie, les escargots de Favrieux, les miels de Tessancourt. Entrée libre, verre de dégustation 4 €.",
+    "address": "Écuries du château, 1 rue de l'Audience, 95780 La Roche-Guyon",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chateau+de+La+Roche-Guyon",
+    "drive": "~7 min",
+    "site": "https://www.salonduvin.org/",
+    "hours": "Édition 2025 : 31 oct.-2 nov. · édition 2026 non encore annoncée"
+  },
+  {
+    "id": "chateau-de-bizy",
+    "cat": "culture",
+    "name": "Château de Bizy",
+    "lat": 49.083883,
+    "lng": 1.4661097,
+    "note": "Le « petit Versailles » normand, surnom mérité pour ses jeux d'eau et ses arbres bicentenaires. Visite guidée des appartements, jardins à la française et à l'anglaise. Le complément évident à Giverny pour tenir une journée côté Vernon sans la foule.",
+    "address": "Avenue Maréchal de Lattre de Tassigny, 27200 Vernon",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chateau+de+Bizy+Vernon",
+    "drive": "~22 min",
+    "rating": 4.3,
+    "ratingCount": 1464,
+    "hours": "Mar.-dim. 10h-18h · fermé lundi",
+    "duration": "1h30"
+  },
+  {
+    "id": "ecosite-villarceaux",
+    "cat": "culture",
+    "name": "Écosite de Villarceaux — la Bergerie",
+    "lat": 49.1185234,
+    "lng": 1.7135638,
+    "note": "À cinq cents mètres du Domaine de Villarceaux, mais c'est un lieu distinct : une ferme bio en polyculture-élevage doublée d'un centre d'accueil, avec restaurant bio et hébergement. Son pain au blé bio et son bœuf Salers se retrouvent à la carte des bonnes tables du coin.",
+    "address": "La Bergerie, 95710 Chaussy",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ecosite+de+Villarceaux+Chaussy",
+    "drive": "~18 min",
+    "rating": 4.6,
+    "ratingCount": 197,
+    "phone": "+33 1 34 67 08 80",
+    "site": "https://www.bergerie-villarceaux.org/",
+    "hours": "Lun. 9h-17h · mar.-dim. 14h-18h"
+  },
+  {
+    "id": "entre-deux-grains",
+    "cat": "producteurs",
+    "name": "Domaine Entre Deux Grains",
+    "lat": 49.1583279,
+    "lng": 1.8113485,
+    "note": "Il y a du vin à vingt-cinq minutes, et c'est tout neuf. Les Philippon sont céréaliers à Magny depuis quatre générations ; ils ont planté la vigne en 2022 et sorti leurs premières bouteilles avec les vendanges 2024. L'un des deux premiers vignobles du Val-d'Oise. Que du blanc, en visant le local et le bio : chardonnay, sauvignon, viognier, pinot gris. Pas de boutique à horaires fixes — téléphoner, ou en boire au verre au Relais du Bras d'Or.",
+    "address": "D174, 95420 Magny-en-Vexin",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Domaine+entre+deux+grains+Magny-en-Vexin",
+    "drive": "~25 min",
+    "rating": 5.0,
+    "ratingCount": 2,
+    "phone": "+33 6 69 29 68 08",
+    "hours": "Téléphoner avant de passer"
   }
 ];
 
@@ -1195,6 +1666,8 @@ function glyph(cat) {
       return '<circle cx="11.4" cy="4.4" r="2" fill="#fff"/><polygon points="1.5,13 6,6 8.5,10 11.5,5.5 14.5,13" fill="#fff"/>';
     case "village": // maison
       return '<polygon points="3,8 8,3 13,8 13,13 3,13" fill="#fff"/>';
+    case "marches": // étal de marché sous auvent
+      return '<path d="M1.9,7.1 L8,3.2 L14.1,7.1 Z" fill="#fff"/><rect x="3.2" y="7.7" width="9.6" height="1.4" fill="#fff"/><rect x="4.7" y="9.7" width="6.6" height="3.5" fill="#fff"/>';
     case "producteurs": // carotte / maraîcher
       return '<path d="M5.6,6.2 L10.4,6.2 L8,13 Z" fill="#fff"/><line x1="8" y1="6.2" x2="6.3" y2="2.9" stroke="#fff" stroke-width="1.2" stroke-linecap="round"/><line x1="8" y1="6.2" x2="8" y2="2.4" stroke="#fff" stroke-width="1.2" stroke-linecap="round"/><line x1="8" y1="6.2" x2="9.7" y2="2.9" stroke="#fff" stroke-width="1.2" stroke-linecap="round"/>';
     default: // home : point géodésique
@@ -1312,6 +1785,9 @@ function flashCard(spot) {
   card.classList.add("is-flash");
   setTimeout(() => card.classList.remove("is-flash"), 1600);
 }
+
+const aboutMore = document.getElementById("aboutMore");
+if (aboutMore) window.addEventListener("beforeprint", () => { aboutMore.open = true; });
 
 function buildList() {
   const panel = document.getElementById("listPanel");
